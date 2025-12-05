@@ -13,7 +13,7 @@ export default function Home() {
       <h1 className="block font-bold lg:text-8xl md:text-7xl text-4xl text-center">Untar la Manteca S. A.</h1>
     </header>
 
-    <div className="bg-linear-to-r from-black to-red-950 text-white w-full pl-5 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:grid-flow-row-dense place-items-center justify-around">
+    <div className="bg-linear-to-r from-black to-red-950 text-white w-full grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:grid-flow-row-dense place-items-center justify-around">
       <div className="max-w-200 order-2 lg:order-1">
         <h1 className="block text-center lg:text-4xl md:text-3xl sm:text-2xl font-bold pl-10 pr-10 pb-5">Producto Destacado: Kit de Programación de Untar la Manteca</h1>
         <span className="block text-center text-l">Compra el Kit de Programación y tu código automáticamente será órdenes de magnitud mejor sin hacer NINGÚN esfuerzo. El de la imagen serás tú después de comprar el Kit.</span>
@@ -28,8 +28,8 @@ export default function Home() {
     </div>
 
 
-    <div className="grid bg-linear-to-r from-black to-red-950 text-white w-full pl-5 gap-2">
-      <h1 className="pt-10 block font-bold text-3xl text-center pb-7">Características</h1>
+    <div className="grid bg-linear-to-r from-black to-red-950 text-white w-full gap-2">
+      <h1 className="pt-10 block font-bold text-3xl text-center pb-5">Características</h1>
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:gap-4 p-2 place-items-center justify-around">
         <div className="grid place-items-center hover:scale-105 object-cover bg-red-950 border-red-700 border-4 rounded-md p-5 m-2">
           <span className="block font-bold text-center pb-2">🤖 Sistema 🤖</span>
@@ -50,8 +50,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="grid bg-linear-to-r from-black to-red-950 text-white w-full pl-5 gap-2">
-      <h1 className="pt-10 block font-bold text-3xl text-center pb-7">Galería de productos</h1>
+    <div className="grid bg-linear-to-r from-black to-red-950 text-white w-full gap-2">
+      <h1 className="pt-10 block font-bold text-3xl text-center pb-5">Galería de productos</h1>
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:gap-4 p-2 m-2 place-items-center justify-around">
         <div className="grid lg:col-span-2 place-items-center hover:scale-105 aspect-square object-cover bg-red-950 border-red-700 border-4 rounded-md p-2">
           <span className="block font-bold text-center">Producto 1: Kit de Programación</span>
@@ -98,7 +98,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="p-10 grid bg-linear-to-r from-black to-red-950 text-white w-full pl-5">
+    <div className="p-10 grid bg-linear-to-r from-black to-red-950 text-white w-full">
       <h1 className="pt-10 block font-bold text-3xl text-center pb-5">Métricas verificadas por Científicos</h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 sm:gap-4 p-2 place-items-center justify-around">
         <div className="grid sm:md:col-span-2">
@@ -110,13 +110,13 @@ export default function Home() {
           <span className="block text-center bg-linear-to-r from-red-200 to-red-800 bg-clip-text text-transparent">-117%</span>
         </div>
         <div>
-          <span className="block font-bold text-center pr-10">📈 Porcentaje de recomendaciones: 📈</span>
+          <span className="block font-bold text-center">📈 Porcentaje de recomendaciones: 📈</span>
           <span className="block text-center bg-linear-to-r from-red-700 to-red-300 bg-clip-text text-transparent">+500%</span>
         </div>
       </div>
     </div>
 
-    <div className="pt-10 grid bg-linear-to-r from-black to-red-950 text-white w-full pl-5 lg:mb-20 md:mb-45 sm:mb-45">
+    <div className="pt-10 grid bg-linear-to-r from-black to-red-950 text-white w-full lg:mb-20 md:mb-45 sm:mb-45">
       <h1 className="block font-bold text-3xl text-center pb-5">Testimonios de Usuarios</h1>
       <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:gap-4 p-2 place-items-center">
         <div>
